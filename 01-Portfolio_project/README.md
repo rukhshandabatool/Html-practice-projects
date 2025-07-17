@@ -19,6 +19,9 @@ To practice and demonstrate foundational HTML skills before moving on to styling
 - Improve layout structure for usability
 - Convert into a complete personal portfolio in the future
 
+## Credit
+- The image used in this project is from "https://pixabay.com/"
+
 ## 🛠️ Technologies Used
 
 - HTML5 only (no external libraries or styling)
