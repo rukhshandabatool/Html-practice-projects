@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Form </title>
+</head>
+<body>
+    <h2> <string> Contact Form </string> </h2>
+    <p> Fill out the following questionare for conatct purpose. </p>
+
+    <form action="https://httpbin.org/post" method = "post"> <!-- Openning of form tag -->
+    <!-- The action defines where your form gets submitted 
+        I use the action="https://httpbin.org/post" → this sends your form data to a server.
+        The method="POST" tells it to send the data securely.
+    -->
+    <!--
+        I use a test service like https://httpbin.org/post to view the data after submission:
+        <form action="https://httpbin.org/post" method="post">
+        It will open a new page showing all submitted data. Great for testing form behavior. 
+    -->
+    <!--
+        If you’re not using a backend (like PHP or Python), and just want to prevent errors when clicking “Submit”:
+        <form action="#" method="post">
+        # means “stay on this page.”
+        method="post" means the data will be sent invisibly (but nothing will actually happen).
+    -->
+    <h4> Enter your name: </h4>
+    <label for = "name"> Your Name </label>
+    <input type = "text" id = "name" name = "user_name"  placeholder="Enter your name">
+    
+    <br />
+
+    <h4> Enter your email: </h4>
+    <label for = "email"> Your email </label>
+    <input type = "text" id = "email" name = "user_email"  placeholder="Enter your email address">
+
+    <br />
+
+    <h4> Enter your phone_number: </h4>
+    <label for = "p_number"> Your Phone_number </label>
+    <input type = "text" id = "p_number" name = "user_phone_no."  placeholder="Enter your phone number">
+    
+    <br />
+
+    <h4> Choose the contact method: </h4>
+    <label for = "preferred_choice"> Email
+        <input type = "radio" id = "preferred_choice" value = "choice" name = "contact_choice" >
+    </label>
+    &nbsp;&nbsp;
+    <label for = "preferred_choice1"> Phone
+        <input type = "radio" id = "preferred_choice1" value = "choice" name = "contact_choice" >
+    </label>
+
+    <br />
+    
+    <h4> Enter the message: </h4>
+    <label for = "message"> </label>
+    <textarea name = "message" id = "message" placeholder = "Write your desired message."></textarea>
+
+    <br />
+
+    <h4> Select if you agree to term & conditions. </h4>
+    <label for = ""> 
+        <input type = "checkbox" name = "agree_to_conditions"> &nbsp; I agree with term & conditions. 
+    </label>
+
+    <br />
+    
+    <h4> Click here to submit your message. </h4>
+    <input type="submit" value="Send Message">
+
+    </form> <!-- Closing of form tag -->
+
+</body>
+</html>
