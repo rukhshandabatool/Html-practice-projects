@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> About </title>
+</head>
+<body style="background-color: #abb32e">
+    <!-- 
+        Simple navigation bar with a back arrow linking to the Home Page.
+        Using <nav> improves the structure and accessibility of the webpage.
+    -->
+    <nav>
+        <a href="../index.html"> → </a>
+    </nav>
+
+    <!-- 
+        The <div> tag below is used as a container to group content together. 
+        The inline style attribute is applied to control its layout and appearance 
+        (e.g., background, positioning, padding, and alignment) without using an external CSS file.
+    -->
+    <div style="
+            position: absolute;
+            top: 180px;      /* distance from top */
+            left: 50%;      /* centered horizontally */
+            transform: translateX(-50%);
+            background: rgba(63, 63, 28, 0.7); /* semi-transparent background */
+            padding: 10px 20px;
+            border-radius: 30px;
+        ">
+    <!-- 
+        A separate section to display the 'About' information inside the container. 
+        The <section> tag helps make the structure more semantic and organized.
+    -->
+    <section id="about">
+        <h2> About </h2>
+            <h4>
+                A curated(carefully chosen and thoughtfully organized or presented) selection of recipes for 
+                every mood — quick, simple, and full of flavor. Explore, cook, and enjoy every bite!
+            </h4>
+            <p>
+                This website is built using pure HTML — only inline style attribute from CSS are used.
+            </p>
+    </section>
+    </div>
+    
+
+    <!-- 
+        Another <div> container is used below to display developer credit.
+        Similar styling is applied to keep a consistent layout and design.
+    -->
+    <div style="
+            position: absolute;
+            top: 400px;      /* distance from top */
+            left: 50%;      /* centered horizontally */
+            transform: translateX(-50%);
+            background: rgba(63, 63, 28, 0.7); /* semi-transparent background */
+            padding: 10px 20px;
+            border-radius: 30px;
+        ">
+        <section id="Developer_Info">
+            <h4>
+                &nbsp;&nbsp;&nbsp;Designed & Developed by 
+                <br>
+                @RUKHSHANDA BATOOL.
+            </h4>
+        </section>
+    </div>
+
+</body>
+</html>
