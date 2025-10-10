@@ -11,10 +11,7 @@ I plan to revisit and **enhance these projects with CSS and JavaScript** later a
 
 ### 01 — Portfolio Project  
 - 📝 A simple personal portfolio layout built using only HTML.  
-- 🧭 Demonstrates structure, navigation, and content organization.  
-
----
-
+- 🧭 Demonstrates structure, navigation, and content organization. 
 
 ### 02 — Contact Form  
 - 📬 A basic HTML contact form.  
@@ -24,17 +21,16 @@ I plan to revisit and **enhance these projects with CSS and JavaScript** later a
    No data is stored or used — the service is only for testing form submission behavior.
 
 
----
-
 ### 03 — Questionnaire Form  
 - 📝 A simple questionnaire page built using HTML forms.  
 - 🎯 Focus: semantic form structure and input handling.
 
----
 
 ### 04 — 🍽️ Recipe Website  
 - 📖 A pure HTML-based website showcasing a collection of delicious recipes, organized for easy navigation.  
 - 💻 Built with HTML only — minor inline CSS styling through the `style` attribute.  
+
+---
 
 #### 🖼️ Image Sources:
 - All images were downloaded from **Freepik**.  
@@ -43,10 +39,14 @@ I plan to revisit and **enhance these projects with CSS and JavaScript** later a
   - Removing/adjusting background elements  
   - Adding small decorative elements
 
+---
+
 ## 🛠️ Tech Stack
 - **HTML5**
 - **Inline CSS (style attribute only)**
 - No frameworks, no JavaScript — just pure structure & creativity.
+
+---
 
 ## Live Preview
 🌐 **Live Preview:** [Click here to view the projects](https://rukhshandabatool.github.io/Html-practice-projects/)
