@@ -26,7 +26,7 @@ I plan to revisit and **enhance these projects with CSS and JavaScript** later a
 
 ---
 
-### 03 — Questionnaire Form *(Coming Soon)*  
+### 03 — Questionnaire Form  
 - 📝 A simple questionnaire page built using HTML forms.  
 - 🎯 Focus: semantic form structure and input handling.
 
