@@ -49,7 +49,7 @@ I plan to revisit and **enhance these projects with CSS and JavaScript** later a
 - No frameworks, no JavaScript — just pure structure & creativity.
 
 ## Live Preview
-🌐 **Live Preview:** [Click here to view the website](https://rukhshandabatool.github.io/Html-practice-projects/)
+🌐 **Live Preview:** [Click here to view the projects](https://rukhshandabatool.github.io/Html-practice-projects/)
 
 ### 🌐 Credit 
 `2025 | Designed and Developed by RUKHSHANDA BATOOL`
