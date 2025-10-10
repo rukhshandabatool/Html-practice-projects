@@ -51,6 +51,8 @@ I plan to revisit and **enhance these projects with CSS and JavaScript** later a
 ## Live Preview
 🌐 **Live Preview:** [Click here to view the projects](https://rukhshandabatool.github.io/Html-practice-projects/)
 
+---
+
 ### 🌐 Credit 
 `2025 | Designed and Developed by RUKHSHANDA BATOOL`
 💻 A collection of beginner-friendly HTML projects designed and developed by me to build a strong foundation in front-end development. Each project reflects my learning journey, creativity, and focus on clean structure and design.
