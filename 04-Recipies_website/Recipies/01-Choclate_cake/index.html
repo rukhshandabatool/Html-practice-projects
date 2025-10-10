@@ -1,24 +1,42 @@
+<!--
+        Declares HTML5 document type .
+        lang="en" improves accessibility and SEO .
+-->
 <!DOCTYPE html>
 <html lang="en">
+    <!--
+        Below meta setup — ensures responsiveness and correct character encoding.
+        Title the page properly with the recipe name — good for organization and browser tabs.
+    -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Choclate Cake Recipie </title>
 </head>
 <body style="background-color: #abb32e">
+    <!--
+        This takes the user back to the Recipes index 
+    -->
     <nav>
         <a href="../index.html"> → </a> 
     </nav>
-
+    
+    <!-- Header of the page -->
+    <!--
+        Header is used to display the content that appears at the top of a webpage, such as the main 
+        heading, logo, or navigation menu.   
+    -->
     <header>
         <h1> Cholclate Cake Recipie </h1>
     </header>
-
+    
+    <!-- Main section of the page -->
     <main>
         <section>
-            <img src = "/cake.jpg" alt = "Choclate cake image1" height = "300">
+            <!-- Images tags to present the images of the recipies -->
+            <img src = "../../Images/cake.jpg" alt = "Choclate cake image1" height = "300">
             &nbsp;&nbsp;
-            <img src = "/cake1.jpg" alt = "Choclate cake image2" height = "300">
+            <img src = "../../Images/cake1.jpg" alt = "Choclate cake image2" height = "300">
         </section>
         
         <br /> 
@@ -34,6 +52,9 @@
                 
                 <h5> Dry Ingredients </h5>
             <ol>
+                <!-- 
+                    List tags are used like ordered list to show the data with proper order like; 1, 2, 3.
+                -->
                 <li> 1 and 3/4 cups (220g) all-purpose flour </li>
                 <li> 3/4 cup (65g) unsweetened cocoa powder (preferably Dutch-processed) </li>
                 <li> 3/4 cup (65g) unsweetened cocoa powder (preferably Dutch-processed) </li>
@@ -56,6 +77,9 @@
         <section>
             <h3> 👩‍🍳 Instructions </h3>
             <ul>
+                <!-- 
+                    List tags are used like unordered list to show the data when proper order doesn't needed.
+                -->
                 <li> 
                     Preheat your oven to 350°F (175°C). Grease and flour two 8-inch round cake pans (or one 9x13-inch pan).
                 </li>
@@ -81,11 +105,16 @@
         </section>
     
     </main>
-
+    
+    <!-- Footer of the page -->
+    <!--
+        Footer is used to display the content that appears at the bottom of a webpage, such as 
+        copyright information, contact details, or links to other pages.
+    -->
     <footer>
-        <strong> 
+        <h5> 
             Enjoy every bite you make, and let others share in the joy too.😉
-        </strong>
+        </h5>
     </footer>
 </body>
 </html>
