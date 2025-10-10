@@ -33,7 +33,6 @@ I plan to revisit and **enhance these projects with CSS and JavaScript** later a
 ---
 
 ### 04 — 🍽️ Recipe Website  
-- 👩‍🍳 **Designed & Developed by Rukhshanda Batool**  
 - 📖 A pure HTML-based website showcasing a collection of delicious recipes, organized for easy navigation.  
 - 💻 Built with HTML only — minor inline CSS styling through the `style` attribute.  
 
@@ -52,5 +51,5 @@ I plan to revisit and **enhance these projects with CSS and JavaScript** later a
 ## Live Preview
 🌐 [Live Preview](#) 
 
-### 🌐 Credit
+### 🌐 Credit 
 💻 A collection of beginner-friendly HTML projects designed and developed by `Rukhshanda Batool` to build a strong foundation in front-end development. Each project reflects my learning journey, creativity, and focus on clean structure and design.
