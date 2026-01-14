@@ -50,7 +50,6 @@ I plan to revisit and **enhance these projects with CSS and JavaScript** later a
 
 ## Live Preview
 🌐 **Live Preview:** [Click here to view the projects](https://rukhshandabatool.github.io/Html-practice-projects/)
-
 ---
 
 ### 🌐 Credit 
